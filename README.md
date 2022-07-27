@@ -44,6 +44,21 @@ java -jar -Dserver.port=9004 ./target/user-service-0.0.1-SNAPSHOT.jar
 - Spring Boot 2.4에서 Maintenance 상태
   - <https://spring.io/blog/2018/12/12/spring-cloud-greenwich-rc1-available-now> 참고
 
+### Spring Cloud Gateway
+- Zuul과의 차이점
+  - 비동기 방식을 스프링과 호환성있게 제공함.
+  - Netty 서버로 동작함.
+- filter 적용 순서
+  - Global filter
+  - Custom filter
+
+## 유저 서비스 실습
+### 인프런 강의와 차이점
+- Spring Boot Version
+- Spring Cloud Version
+- Spring Security
+  - Spring Security Version
+  - WebSecurityConfigurerAdapter 대신 
 
 ## 참고자료
 - [인프런 - Spring Cloud로 개발하는 마이크로서비스 애플리케이션(MSA) by Dowon Lee](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%84%9C%EB%B9%84%EC%8A%A4#)
