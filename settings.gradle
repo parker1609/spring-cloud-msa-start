@@ -3,4 +3,5 @@ include 'discoveryservice'
 include 'user-service'
 include 'gateway-service'
 include 'catalog-service'
+include 'order-service'
 
